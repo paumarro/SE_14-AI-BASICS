@@ -13,17 +13,14 @@ As part of this project, I conducted three key experiments to explore the impact
 
 #### Experiment 1: Eliminating the Pooling Layers
 
-- **Objective**: To assess the impact of removing pooling layers on the model's performance. Pooling layers typically reduce the spatial size of the representation, reducing the number of parameters and computation in the network.
 - **Outcome**: Eliminating pooling layers resulted in a significant increase in the number of parameters and computational complexity. While this led to a slight increase in training accuracy, it also caused overfitting, where the model memorized the training data but performed poorly on unseen test data.
 
 #### Experiment 2: Increasing the Filter Size from 3x3 to 6x6
 
-- **Objective**: To evaluate the effect of using larger convolutional filters. Larger filters can capture more information in the input image but might reduce the model's ability to recognize finer details.
 - **Outcome**: Increasing the filter size to 6x6 allowed the model to capture more context in each convolution operation. However, this change also reduced the model's sensitivity to smaller and finer details in the images, leading to a decrease in overall accuracy.
 
 #### Experiment 3: Decreasing the Filter Size from 3x3 to 1x1 and Increasing the Pooling Layer Size to 4x4
 
-- **Objective**: This two-part experiment aimed to investigate the effects of smaller convolutional filters and larger pooling sizes. A 1x1 filter was expected to capture very local information, whereas a larger pooling size would increase the field of view after convolution.
 - **Outcome**: 
    - **Decreasing the Filter Size to 1x1**: This drastically reduced the model's ability to capture spatial hierarchies and contextual information, leading to a notable drop in accuracy.
    - **Increasing the Pooling Layer Size to 4x4**: This resulted in too much spatial information being compressed too quickly, causing a loss of critical details necessary for accurate classification. This also contributed to a decline in model performance.
