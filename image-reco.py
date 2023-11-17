@@ -43,10 +43,10 @@ test_labels =  tf.keras.utils.to_categorical(test_labels, len(class_names))
 
 # Variables
 INPUT_SHAPE = (32, 32, 3)
-FILTER1_SIZE = 32 #Figure out what exactly the size represents
+FILTER1_SIZE = 32 
 FILTER2_SIZE = 64
-FILTER_SHAPE = (3, 3) #Play around with the filter shape
-POOL_SHAPE = (4, 4) #Experiment: Play around with the size of the pooling layer & remove it from a convlayer
+FILTER_SHAPE = (3, 3) 
+POOL_SHAPE = (4, 4) 
 FULLY_CONNECT_NUM = 128
 NUM_CLASSES = len(class_names)
 
