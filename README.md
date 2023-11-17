@@ -13,7 +13,7 @@ As part of this project, I conducted three key experiments to explore the impact
 
 #### Experiment 1: Eliminating the Pooling Layers
 
-- **Outcome**: Eliminating pooling layers resulted in a significant increase in the number of parameters and computational complexity. While this led to a slight increase in training accuracy, it also caused overfitting, where the model memorized the training data but performed poorly on unseen test data.
+- **Outcome**: In theory eliminating pooling layers resulted in a significant increase in the number of parameters and computational complexity. While this led to a slight increase in training accuracy, it also caused overfitting, where the model memorized the training data but performed poorly on unseen test data. In practice the program ended up crashing in my machine everytime.
 
 #### Experiment 2: Increasing the Filter Size from 3x3 to 6x6
 
