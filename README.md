@@ -1,7 +1,6 @@
 
 # SE_14 AI BASICS
 
-
 ## Project Overview
 Welcome to the Image Classification CNN Project, a comprehensive university assignment designed for the module SE_14 - Artificial Intelligence Basics. This project is a demonstration of my abilities and understanding in the field of Artificial Intelligence, specifically focusing on Convolutional Neural Networks (CNN) and their application in image classification tasks.
 
@@ -99,3 +98,4 @@ These experiments highlighted the delicate balance in CNN architectures between 
 - Depending on your system's hardware, training the model may take some time.
 
 
+This project was significantly guided by the comprehensive tutorial provided by DataCamp, available at https://www.datacamp.com/tutorial/cnn-tensorflow-python.
