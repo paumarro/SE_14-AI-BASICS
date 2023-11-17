@@ -39,9 +39,9 @@ A 3-by-3 kernel and a 2-by-2 pool.
 ### Technical Stack
 
 **Python**: The primary programming language used for this project.\
-**TensorFlow/Keras**: For building and training the CNN model.
-**NumPy**: For numerical operations and data manipulation.
-**Matplotlib**: For visualizing data and model performance.
+**TensorFlow/Keras**: For building and training the CNN model.\
+**NumPy**: For numerical operations and data manipulation.\
+**Matplotlib**: For visualizing data and model performance.\
 
 ### Installation Steps
 
