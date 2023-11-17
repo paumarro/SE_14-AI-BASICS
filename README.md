@@ -33,7 +33,7 @@ The ideal configuration found was:
 
 a 3 by 3 kernel and a 2 by pool.
 
-![First-Confusion-Matrix-Evaluation](https://github.com/paumarro/SE_14-AI-BASICS/assets/89356704/3e340925-99ad-4c76-954b-9c1f27d27864)
+![Confusion-Matrix-Evaluation](https://raw.githubusercontent.com/paumarro/SE_14-AI-BASICS/main/image-reco.py)
 
 
 ### Technical Stack
