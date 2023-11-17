@@ -31,9 +31,9 @@ These experiments highlighted the delicate balance in CNN architectures between 
 
 The ideal configuration found was:
 
-a 3 by 3 kernel and a 2 by pool.
+A 3-by-3 kernel and a 2-by-2 pool.
 
-![Confusion-Matrix-Evaluation](https://raw.githubusercontent.com/paumarro/SE_14-AI-BASICS/main/image-reco.py)
+![Confusion-Matrix-Evaluation](https://github.com/paumarro/SE_14-AI-BASICS/blob/main/Confusion-Matrix-Evaluation.png)
 
 
 ### Technical Stack
