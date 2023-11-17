@@ -29,6 +29,13 @@ As part of this project, I conducted three key experiments to explore the impact
 
 These experiments highlighted the delicate balance in CNN architectures between capturing sufficient contextual information and not losing critical spatial details. Adjusting filter and pooling layer sizes can significantly impact the model's ability to generalize and perform accurately on unseen data. Such explorations are crucial in understanding and designing effective CNN models for image classification tasks.
 
+The ideal configuration found was:
+
+a 3 by 3 kernel and a 2 by pool.
+
+![First-Confusion-Matrix-Evaluation](https://github.com/paumarro/SE_14-AI-BASICS/assets/89356704/3e340925-99ad-4c76-954b-9c1f27d27864)
+
+
 ### Technical Stack
 
 **Python**: The primary programming language used for this project.\
