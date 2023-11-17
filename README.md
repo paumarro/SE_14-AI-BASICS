@@ -27,7 +27,7 @@ As part of this project, I conducted three key experiments to explore the impact
 
 ### Conclusion
 
-These experiments highlighted the delicate balance in CNN architectures between capturing sufficient contextual information and not losing critical spatial details. Adjusting filter and pooling layer sizes can significantly impact the model's ability to generalize and perform accurately on unseen data. Such explorations are crucial in understanding and designing effective CNN models for image classification tasks.
+These experiments highlighted the delicate balance in CNN architectures between capturing sufficient contextual information and not losing critical spatial details. Adjusting filter and pooling layer sizes can significantly impact the model's ability to generalize and perform accurately on unseen data.
 
 The ideal configuration found was:
 
