@@ -87,10 +87,8 @@ A 3-by-3 kernel and a 2-by-2 pool.
    Run the script using Python:
 
    ```
-   python [script_name].py
+   python image-reco.py
    ```
-
-   Replace `[script_name]` with the name of the Python script provided in the project.
 
 3. **View the Results**
 
